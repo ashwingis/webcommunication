@@ -28,7 +28,7 @@ nav{
 /*style for the navigation bar ends*/
 
 h2 {
-  font-size:2vw;
+  font-size:3.5vw;
   text-align: left;
   color: #787878;
   font-family: Verdana, Helvetica, sans-serif;
@@ -38,7 +38,7 @@ h2 {
 /*style for the selctors starts*/
 /*https://www.w3schools.com/css/css_selectors.asp*/
 #name{
-  font-size:1.5vw;
+  font-size:3vw;
   text-align: left;
   color: #3c3c3c;
   font-family: Verdana, Helvetica, sans-serif;
@@ -46,7 +46,7 @@ h2 {
 }
 
 .Headright {
-  font-size:2.5vw;
+  font-size:3.5vw;
   text-align: left;
   color: #787878;
   font-family: Verdana, Helvetica, sans-serif;
@@ -54,7 +54,7 @@ h2 {
 /*style for the selctors ends*/
 
 h3 {
-  font-size:2.5vw;
+  font-size:3.5vw;
   text-align: right;
   color: #787878;
   font-family: Verdana, Helvetica, sans-serif;
@@ -62,7 +62,7 @@ h3 {
 }
 
 #designation {
-  font-size:1.5vw;
+  font-size:3vw;
   letter-spacing:0.2vw;
   text-align: left;
   color: black;
@@ -70,7 +70,7 @@ h3 {
 }
 
 #contact {
-  font-size:1.5vw;
+  font-size:3vw;
   font-style:italic;
   text-align: left;
   color: black;
@@ -78,14 +78,14 @@ h3 {
 }
 
 #intro {
-  font-size:1.5vw;
+  font-size:2.5vw;
   text-align: left;
   color: black;
   font-family: Verdana, Helvetica, sans-serif;
 }
 
 .work {
-  font-size:1.5vw;
+  font-size:2.5vw;
   text-align: left;
   color: black;
   font-family: Verdana, Helvetica, sans-serif;
@@ -103,7 +103,7 @@ p {
 /*style for table starts*/
 /*https://www.w3schools.com/css/css_table.asp*/
 table {
-  font-size:2vw;
+  font-size:2.5vw;
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
