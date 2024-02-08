@@ -20,7 +20,7 @@ h1 {
 /*style for the navigation bar starts*/
 /*https://www.w3schools.com/css/css_navbar.asp*/
 nav{
-  font-size:3.5vw;
+  font-size:1vw;
   text-align: right;
   color: #ffffff;
   font-family: Verdana, Helvetica, sans-serif;
@@ -103,7 +103,7 @@ p {
 /*style for table starts*/
 /*https://www.w3schools.com/css/css_table.asp*/
 table {
-  font-size:1vw;
+  font-size:3.5vw;
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
