@@ -9,7 +9,7 @@ header {
 /*style for the headings starts*/
 /*https://www.w3schools.com/howto/howto_css_style_header.asp*/
 h1 {
-  font-size:2.8vw;
+  font-size:3.5vw;
   text-align: right;
   color: #ffffff;
   font-family: Verdana, Helvetica, sans-serif;
@@ -20,7 +20,7 @@ h1 {
 /*style for the navigation bar starts*/
 /*https://www.w3schools.com/css/css_navbar.asp*/
 nav{
-  font-size:1vw;
+  font-size:3vw;
   text-align: right;
   color: #ffffff;
   font-family: Verdana, Helvetica, sans-serif;
@@ -28,7 +28,7 @@ nav{
 /*style for the navigation bar ends*/
 
 h2 {
-  font-size:1vw;
+  font-size:3vw;
   text-align: left;
   color: #787878;
   font-family: Verdana, Helvetica, sans-serif;
@@ -46,7 +46,7 @@ h2 {
 }
 
 .Headright {
-  font-size:1.5vw;
+  font-size:2vw;
   text-align: left;
   color: #787878;
   font-family: Verdana, Helvetica, sans-serif;
@@ -54,7 +54,7 @@ h2 {
 /*style for the selctors ends*/
 
 h3 {
-  font-size:1.5vw;
+  font-size:3vw;
   text-align: right;
   color: #787878;
   font-family: Verdana, Helvetica, sans-serif;
@@ -62,7 +62,7 @@ h3 {
 }
 
 #designation {
-  font-size:1vw;
+  font-size:2vw;
   letter-spacing:0.2vw;
   text-align: left;
   color: black;
@@ -70,7 +70,7 @@ h3 {
 }
 
 #contact {
-  font-size:1vw;
+  font-size:2vw;
   font-style:italic;
   text-align: left;
   color: black;
@@ -78,21 +78,21 @@ h3 {
 }
 
 #intro {
-  font-size:1vw;
+  font-size:2vw;
   text-align: left;
   color: black;
   font-family: Verdana, Helvetica, sans-serif;
 }
 
 .work {
-  font-size:1vw;
+  font-size:2vw;
   text-align: left;
   color: black;
   font-family: Verdana, Helvetica, sans-serif;
 }
 
 p {
-  font-size:1vw;
+  font-size:2vw;
   text-align: right;
   color: black;
   font-family: Verdana, Helvetica, sans-serif;
@@ -103,7 +103,7 @@ p {
 /*style for table starts*/
 /*https://www.w3schools.com/css/css_table.asp*/
 table {
-  font-size:3.5vw;
+  font-size:2.5vw;
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
@@ -124,7 +124,7 @@ tr:nth-child(even) {
 /*style for table to have colors in even rows ends*/
 
 #photos{
-  font-size:0.8vw;
+  font-size:1.5vw;
   text-align: left;
   color: black;
   font-family: Verdana, Helvetica, sans-serif; 
