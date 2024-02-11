@@ -1,171 +1,175 @@
 /*style for the header starts*/
 /*https://www.w3schools.com/howto/howto_css_style_header.asp*/
 header {
-  background-color:#ccc;
-  padding: 20px;
-}
-/*style for the header ends*/
+    background-color:#7c7c7c;
+    padding: 20px;
+  }
+  /*style for the header ends*/
+  
+  /*style for the headings starts*/
+  /*https://www.w3schools.com/howto/howto_css_style_header.asp*/
+  h1 {
+    font-size:1.5vw;
+    text-align: right;
+    color: #000000;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: 900;
+  }
+  /*style for the headings ends*/
+  
+  /*style for the navigation bar starts*/
+  /*https://www.w3schools.com/css/css_navbar.asp*/
+  nav{
+    font-size:1vw;
+    text-align: right;
+    color: #ffffff;
+    font-family: Verdana, Helvetica, sans-serif;
+  }
+  /*style for the navigation bar ends*/
+  
+  h2 {
+    font-size:1.5vw;
+    text-align: left;
+    color: #787878;
+    font-family: Verdana, Helvetica, sans-serif;
+    display: initial;
+  }
+  
+  /*style for the selctors starts*/
+  /*https://www.w3schools.com/css/css_selectors.asp*/
+  #name{
+    font-size:1.5vw;
+    text-align: left;
+    color: #3c3c3c;
+    font-family: Verdana, Helvetica, sans-serif;
+    padding-top: 70px;
+  }
+  
+  .Headright {
+    font-size:1.5vw;
+    text-align: left;
+    color: #787878;
+    font-family: Verdana, Helvetica, sans-serif;
+  }
+  /*style for the selctors ends*/
+  
+  h3 {
+    font-size:1.5vw;
+    text-align: right;
+    color: #787878;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: 700;
+  }
+  
+  #designation {
+    font-size:1vw;
+    letter-spacing:0.2vw;
+    text-align: left;
+    color: black;
+    font-family: Verdana, Helvetica, sans-serif;
+  }
+  
+  #contact {
+    font-size:1vw;
+    font-style:italic;
+    text-align: left;
+    color: black;
+    font-family: Verdana, Helvetica, sans-serif;
+  }
+  
+  #intro {
+    font-size:1vw;
+    text-align: left;
+    color: black;
+    font-family: Verdana, Helvetica, sans-serif;
+  }
+  
+  .work {
+    font-size:1vw;
+    text-align: left;
+    color: black;
+    font-family: Verdana, Helvetica, sans-serif;
+  }
+  
+  p {
+    font-size:1vw;
+    text-align: right;
+    color: black;
+    font-family: Verdana, Helvetica, sans-serif;
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
+  }
+  
+  /*style for table starts*/
+  /*https://www.w3schools.com/css/css_table.asp*/
+  table {
+    font-size:1vw;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  /*style for table ends*/
+  
+  /*style for table to have colors in even rows starts*/
+  /*https://www.w3schools.com/cssref/sel_nth-child.php*/
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  /*style for table to have colors in even rows ends*/
+  
+  #photos{
+    font-size:0.8vw;
+    text-align: left;
+    color: black;
+    font-family: Verdana, Helvetica, sans-serif; 
+  }
+  
+  .links {
+    font-size:1vw;
+    text-align: right;
+    font-style: oblique;
+    color: black;
+    font-family: Verdana, Helvetica, sans-serif; 
+  }
+  
+  .back {
+    font-size:1vw;
+    text-align: left;
+    color: black;
+    font-family: Verdana, Helvetica, sans-serif; 
+  }
+  
+  /*style for images to be responsive starts*/
+  /*https://www.w3schools.com/howto/howto_css_image_responsive.asp*/
+  .responsive{
+    width:27%;
+    height:auto;
+  }
+  
+  /*style for images to be responsive ends*/
+  /*https://www.w3schools.com/css/css_link.asp*/
+  /*stlying for external links*/
+  /*external links style starts*/
+  a{
+    color: rgb(238, 238, 238);
+    background-color: #515251;
+    padding:2px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover{
+    background-color: rgb(253, 252, 252);
+    color: rgb(129, 13, 48);
+  }
 
-/*style for the headings starts*/
-/*https://www.w3schools.com/howto/howto_css_style_header.asp*/
-h1 {
-  font-size:4vw;
-  text-align: right;
-  color: #ffffff;
-  font-family: Verdana, Helvetica, sans-serif;
-  font-weight: 900;
+  @media (max-width: 300px) {
+    html { font-size: 70%; }
 }
-/*style for the headings ends*/
-
-/*style for the navigation bar starts*/
-/*https://www.w3schools.com/css/css_navbar.asp*/
-nav{
-  font-size:2.5vw;
-  text-align: right;
-  color: #ffffff;
-  font-family: Verdana, Helvetica, sans-serif;
-}
-/*style for the navigation bar ends*/
-
-h2 {
-  font-size:3.5vw;
-  text-align: left;
-  color: #787878;
-  font-family: Verdana, Helvetica, sans-serif;
-  display: initial;
-}
-
-/*style for the selctors starts*/
-/*https://www.w3schools.com/css/css_selectors.asp*/
-#name{
-  font-size:3vw;
-  text-align: left;
-  color: #3c3c3c;
-  font-family: Verdana, Helvetica, sans-serif;
-  padding-top: 70px;
-}
-
-.Headright {
-  font-size:3.5vw;
-  text-align: left;
-  color: #787878;
-  font-family: Verdana, Helvetica, sans-serif;
-}
-/*style for the selctors ends*/
-
-h3 {
-  font-size:3.5vw;
-  text-align: right;
-  color: #787878;
-  font-family: Verdana, Helvetica, sans-serif;
-  font-weight: 700;
-}
-
-#designation {
-  font-size:3vw;
-  letter-spacing:0.2vw;
-  text-align: left;
-  color: black;
-  font-family: Verdana, Helvetica, sans-serif;
-}
-
-#contact {
-  font-size:3vw;
-  font-style:italic;
-  text-align: left;
-  color: black;
-  font-family: Verdana, Helvetica, sans-serif;
-}
-
-#intro {
-  font-size:2.5vw;
-  text-align: left;
-  color: black;
-  font-family: Verdana, Helvetica, sans-serif;
-}
-
-.work {
-  font-size:2.5vw;
-  text-align: left;
-  color: black;
-  font-family: Verdana, Helvetica, sans-serif;
-}
-
-p {
-  font-size:2.5vw;
-  text-align: right;
-  color: black;
-  font-family: Verdana, Helvetica, sans-serif;
-  margin-block-start: 1.5em;
-  margin-block-end: 1.5em;
-}
-
-/*style for table starts*/
-/*https://www.w3schools.com/css/css_table.asp*/
-table {
-  font-size:2.5vw;
-  font-family: Verdana, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-/*style for table ends*/
-
-/*style for table to have colors in even rows starts*/
-/*https://www.w3schools.com/cssref/sel_nth-child.php*/
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-/*style for table to have colors in even rows ends*/
-
-#photos{
-  font-size:1.5vw;
-  text-align: left;
-  color: black;
-  font-family: Verdana, Helvetica, sans-serif; 
-}
-
-.links {
-  font-size:1vw;
-  text-align: right;
-  font-style: oblique;
-  color: black;
-  font-family: Verdana, Helvetica, sans-serif; 
-}
-
-.back {
-  font-size:1vw;
-  text-align: left;
-  color: black;
-  font-family: Verdana, Helvetica, sans-serif; 
-}
-
-/*style for images to be responsive starts*/
-/*https://www.w3schools.com/howto/howto_css_image_responsive.asp*/
-.responsive{
-  width:27%;
-  height:auto;
-}
-
-/*style for images to be responsive ends*/
-/*https://www.w3schools.com/css/css_link.asp*/
-/*stlying for external links*/
-/*external links style starts*/
-a{
-  color: rgb(238, 238, 238);
-  background-color: #515251;
-  padding:2px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-a:hover{
-  background-color: rgb(253, 252, 252);
-  color: rgb(129, 13, 48);
-}
-/*external links style ends*/
+  /*external links style ends*/
